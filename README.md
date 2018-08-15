@@ -1,4 +1,4 @@
-# Predict the damage to a building - ML Challenge
+# Predict the damage to a building - ML Challenge #6
 - This is the challenge organised by Hacker earth.
 
 ## This problem involves:
@@ -8,7 +8,7 @@
 - Different techniques to improve the accuracy.
 
 ## Challenge Time:
-- 2 months. (I worked on this problem for 7 days)
+- 2 months.
 
 ## Rank:
 - XXX out of XXXX participants
@@ -17,4 +17,15 @@
 - Python
 
 ## Files:
-- Will be updated soon.
+- [Preprocessing - Categorical](https://github.com/Abhishekmamidi123/Predict-the-damage-to-a-building-ML-Challenge/blob/master/preprocessing_categorical.ipynb)
+- [Modelling - Categorical](https://github.com/Abhishekmamidi123/Predict-the-damage-to-a-building-ML-Challenge/blob/master/modelling_categorical.ipynb)
+- [Preprocessing - One hot](https://github.com/Abhishekmamidi123/Predict-the-damage-to-a-building-ML-Challenge/blob/master/preprocessing_onehot.ipynb)
+- [Modelling - One hot](https://github.com/Abhishekmamidi123/Predict-the-damage-to-a-building-ML-Challenge/blob/master/modelling_onehot.ipynb)
+- [Approach file](https://github.com/Abhishekmamidi123/Predict-the-damage-to-a-building-ML-Challenge/blob/master/Approach.txt)
+
+## Developer:
+- M Ratna Abhishek (Abhishek mamidi)
+
+## Links:
+- [Github](https://github.com/Abhishekmamidi123)
+- [LinkedIn](https://www.linkedin.com/in/abhishek-mamidi-a7a982114/)
