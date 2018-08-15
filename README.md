@@ -11,7 +11,7 @@
 - 2 months.
 
 ## Rank:
-- XXX out of XXXX participants
+- XXX out of XXXX participants. (Will be updated soon)
 
 ## Language:
 - Python
