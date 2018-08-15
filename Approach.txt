@@ -1,0 +1,38 @@
+Machine Learning Challenge #6
+
+The goal is to build a supervised model to predict the damage of the building into one of the five classes.
+_______________________________________________________________
+
+Type of problem:
+Multi classification problem(5)
+_______________________________________________________________
+Language: Python
+Editor: Jupyter notebook
+Libraries used: Numpy, Pandas, sklearn, xgboost, lightgbm, matplotlib, seaborn
+_______________________________________________________________
+Approach:
+
+While working on a problem, analysing data is more important than applying a model, which helps us to preprocess the data in a better way and inturn increases the efficiency of model.
+
+Some of the preprocessing steps that are applied to the dataset:
+1. Data merging: There are two other files, "building ownership" and "building structure" csv files, which also contains the features of different building. As these features also suggest the damage of the building, we have consider these features while training a model. So, I have merged "building ownership" data and "building structure" data with the train data, which helps us to build a robuse model.
+2. Data balancing: The data is not balanced, which affects the model's accuracy in a very bad way. So, I have used "SMOTE" algorithm to make the data balanced in all the classes.
+3. Also, convert all the non-numeric columns into numeric columns into categorial/one-hot. So, I have used two types of preprocessing separetely which does both of the techniques separately. There are two files, i.e, "preprocessing_categorical" and "preprocessing_onehot"
+4. Missing values: There are missing values only in the column "has_repair_started". So, as per the intuition, we can fill those values using zero.
+5. If there are two or more columns that are highly correlated with each other, then it really affects the model's accuracy. So, I removed highly correlated columns from the data.
+6. If there are duplicates in the training data, then there is a high chance of overfitting which affects the accuracy/score when tested on new data. So, I removed duplicates from the data.
+7. If there are any constant columns in the dataset, there is no use to use that feature to train the data. But, there are no constant columns in the dataset.
+
+Feature selection and hyperparameter tuning are some of the steps we need to concentrate more to make a good model.
+
+As we know that, tree-based algorithms work for most of the cases for numerical data. I was very keen to apply these algorithms to this dataset and tune accordingly based on the intuition.
+
+There are two types of data. 1. Categorical type of data and 2. one-hot representation of data.
+I applied XGBoost, Random Forest, Neural networks, lightgbm and decision tree algorithms separately on the two types of data. After a lot of hyperparameter tuning, XGBoost gave the good results on the unseen data with categorical type of data.
+
+So, XGBoost outperformed all the other algorithms.
+
+The main files are 
+1. "preprocessing_categorical.ipynb"
+2. "modelling_categorical".
+These are the two files which gave me the highest scores of my submission.
