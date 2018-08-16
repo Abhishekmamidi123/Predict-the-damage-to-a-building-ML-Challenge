@@ -11,7 +11,7 @@
 - 2 months.
 
 ## Rank:
-- XXX out of XXXX participants. (Will be updated soon)
+- 242 out of 7540 participants.
 
 ## Language:
 - Python
